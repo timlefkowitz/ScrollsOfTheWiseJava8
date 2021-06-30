@@ -65,6 +65,7 @@ public class GradeBook {
             int highGrade = grades[0][0];
 
             //loop through rows of grades array
+            int[] studentGrades = new int[0];
             for (int grade : studentGrades)
             {
                 //if grade greater than highGrade, assign it to highGrade
