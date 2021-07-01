@@ -12,8 +12,10 @@ public class Shapes extends JPanel
 
         //My first shapes :D !!!!!
         for (int i = 0; i < 10; i++) {
-            g.drawRect(10 + i * 10, 10 + i * 10,
-                    50 + i * 10, 50 + i * 10);
+
+            //// 10 + i * 30 = starting from 10 pixels down and 30 pixels to the right
+            g.drawRect(10 + i * 30, 10 + i * 30,
+                    50 + i * 30, 50 + i * 30);
             g.drawOval(240 + i * 10, 10 + i * 10,
                     50 + i * 10, 50 + i * 10);
         }
