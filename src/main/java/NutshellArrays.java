@@ -22,4 +22,11 @@ public class NutshellArrays {
     byte[] data = new byte[100];         // An empty array; elements set to 0
     Arrays.fill(data, (byte) -1);        // Set them all to -1
     Arrays.fill(data, 5, 10, (byte) -2); // set elements 5,6,7,8,9, to -2
-}
+
+
+}// end of array
+
+class type = 0.getClass();
+if(type.isArray()) {
+    Class elementType = type.getComponentType();
+        }
