@@ -24,5 +24,11 @@ public class ColorJPanel extends JPanel
         graphics.setColor(Color.BLUE));
         graphics.fillRect(15,75,100,20);
         graphics.drawString("Current RGB: " + graphics.getColor(), 130, 90);
+
+        // Display individual RGB values
+        Color color = Color.MAGENTA;
+        graphics.setColor(color);
+        graphics.fillRect(15, 100, 100, 20);
+        graphics.drawString("RGB Values: " + color.getRed() + "," + color.getGreen() + ", " + color.getBlue(), 130, 115);
     }
-}
+} //end of class
