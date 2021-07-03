@@ -11,10 +11,13 @@ package TimsRandomWritings;
 
 public class TimsRandomWritings {
 
-    ArrayList<String> gameItems = new ArrayList<>();
+    int gameItemGenre = 7;
+
+    ArrayList<ArrayList<String> > gameItems = new ArrayList<ArrayList<String> >(gameItemGenre);
 
 
          ArrayList<String> equipmentItems = new ArrayList<>();
+         equipmentItems.add(Sword);
 
          ArrayList<String> inventory = new ArrayList<>();
 
@@ -25,6 +28,8 @@ public class TimsRandomWritings {
          ArrayList<String> dungeonItems = new ArrayList<>();
 
          ArrayList<String> questItems = new ArrayList<>();
+
+         ArrayList<String> ultraRareItems = new ArrayList<>();
 
 
 
