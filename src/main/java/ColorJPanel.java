@@ -14,5 +14,10 @@ public class ColorJPanel extends JPanel
         graphics.setColor(new Color(255, 0, 0));
         graphics.fill3DRect(15,25,100,20);
         graphics.drawString("Current RGB: " + graphics.getColor(), 130, 40);
+
+        //Set new drawing color using floats
+        graphics.setColor(new Color(0.50f, 0.75f, 0.0f));
+        graphics.fillRect(15,50,100,20);
+        graphics.drawString("Current RGB: " graphics.getColor(), 130, 65);
     }
 }
