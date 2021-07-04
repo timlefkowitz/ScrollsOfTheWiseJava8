@@ -20,6 +20,12 @@ public class NutshellArrays {
 
 
 
+
+    /// MY SORT IS NOT WORKING HERE MUST COME BACK
+
+
+
+
     int [] intarray = new int[] {10,5,7,-3};                    /// array of integers
     Arrays.sort(intarray);                                      ///  Sort it in place
     int pos = Arrays.binarySearch(intarray, 12);           /// Value 7 is found at index 2
