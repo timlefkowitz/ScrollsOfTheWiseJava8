@@ -21,7 +21,7 @@ public class ColorJPanel extends JPanel
         graphics.drawString("Current RGB: " + graphics.getColor(), 130, 65);
 
         // Set new drawing color using static Color objects
-        graphics.setColor(Color.BLUE));
+        graphics.setColor(Color.BLUE);
         graphics.fillRect(15,75,100,20);
         graphics.drawString("Current RGB: " + graphics.getColor(), 130, 90);
 
