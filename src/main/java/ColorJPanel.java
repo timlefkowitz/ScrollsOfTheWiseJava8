@@ -12,7 +12,7 @@ public class ColorJPanel extends JPanel
 
         //set new drawing color using inegers
         graphics.setColor(new Color(255, 0, 0));
-        graphics.fillRect(15,25,100,20);
+        graphics.fillRect(215,215,10,40);
         graphics.drawString("Current RGB: " + graphics.getColor(), 130, 40);
 
         //Set new drawing color using floats
