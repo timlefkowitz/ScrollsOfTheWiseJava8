@@ -1,0 +1,10 @@
+// Java 8 Case Study
+// Aug 17 2021
+// Cooperative thread termination with a volatile field 
+
+public class StopThread {
+    // lets create a flag 
+    private static volatile boolean stopRequested;
+
+
+}
