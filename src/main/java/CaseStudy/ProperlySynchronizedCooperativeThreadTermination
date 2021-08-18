@@ -1,3 +1,11 @@
 // Java 8 Case Study
 // Aug 17 2021
 // Properly Synchronized Cooperative Thread Termination
+
+
+public class StopThread {
+    // Creating a flag to stop the thread
+    private static boolean stopRequested;
+
+    }
+}
