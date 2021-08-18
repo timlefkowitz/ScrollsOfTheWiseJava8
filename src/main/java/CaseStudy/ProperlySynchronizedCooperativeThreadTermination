@@ -10,6 +10,13 @@ public class StopThread {
     private static synchronized void requestStop() {
         stopRequested = true;
     }
+    // Condition for false
+    private static synchronized boolean stopRequested(){
+        return stopRequested;
+    }
+    
+
+
 
     }
 }
