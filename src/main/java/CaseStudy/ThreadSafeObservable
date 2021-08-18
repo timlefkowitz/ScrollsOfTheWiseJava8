@@ -1,3 +1,6 @@
 // Java 8 Case Study
 // Aug 17 2021
 // Thread-Safe Observale set with CopyOnWriteArrayList
+
+//creation of a pipe?
+private final List<SetObserver<E>> observers = new CopyOnWriteArrayList<SetObserver<E>>();
