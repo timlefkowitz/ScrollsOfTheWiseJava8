@@ -6,6 +6,10 @@
 public class StopThread {
     // Creating a flag to stop the thread
     private static boolean stopRequested;
+    // Lets create a condition
+    private static synchronized void requestStop() {
+        stopRequested = true;
+    }
 
     }
 }
