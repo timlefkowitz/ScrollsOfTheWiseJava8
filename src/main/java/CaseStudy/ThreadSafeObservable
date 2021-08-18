@@ -4,3 +4,12 @@
 
 //creation of a pipe?
 private final List<SetObserver<E>> observers = new CopyOnWriteArrayList<SetObserver<E>>();
+
+public void addObserver(SetObserver<E> observer){
+    observers.add(observer);
+}
+
+public boolean removeObserver(SetObserver<E> observer){
+    return observers.remove(observer);
+}
+
