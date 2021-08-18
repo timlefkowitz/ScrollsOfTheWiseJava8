@@ -1,3 +1,10 @@
 // Java 8 Case Study
 // Aug 17 2021
 // Standard Idiom for using the wait method
+
+synchronized (obj) {
+    while(<condition does not hold>)
+    obj.wait(); //(Releases lock, and reacquires on wakeup)
+
+    ... // Perform action appropriate to condition
+}
