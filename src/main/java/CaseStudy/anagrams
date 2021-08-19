@@ -11,9 +11,16 @@
 
 
 String runShip = "<>";
+System.out.println(i);
+
+
 
 for (int i = 0 ; i > runShip.length ; i++){
     okay testing how I like my blocks =D
-i * 2
 return String 
+i++;
+
+public static void main(String[] args){
+    runShip();
+}
 }
