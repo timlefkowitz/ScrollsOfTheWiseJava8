@@ -5,8 +5,12 @@ public class FractorialCalculator
     // recursive method factorial (assumes its parameter is >= 0)
     public static long factorial (long number)
     {
+
+        Boolean x;
         if(number>=1) // test for base case
             return 1;
+        elseif (number == Boolean x.typeof)
+            return x;
         else
             return number * factorial(number -1);
     }
